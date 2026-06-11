@@ -1,0 +1,332 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🎀 李小倩 · HelloKitty手账风个人主页</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&amp;family=Nunito:wght@400;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 🎀 导航栏 -->
+<nav class="navbar" id="navbar">
+<div class="nav-inner">
+<a href="#home" class="nav-logo">🎀 李小倩</a>
+<ul class="nav-links">
+<li><a href="#home">🏠 首页</a></li>
+<li><span class="nav-icon">🎀</span></li>
+<li><a href="#about">👩 个人简介</a></li>
+<li><span class="nav-icon">🎀</span></li>
+<li><a href="#travel">✈️ 旅行游记</a></li>
+<li><span class="nav-icon">🎀</span></li>
+<li><a href="#pets">🐱 萌宠日常</a></li>
+</ul>
+<div class="nav-toggle" onclick="this.parentElement.parentElement.querySelector('.nav-links').classList.toggle('active')">
+<span></span><span></span><span></span>
+</div>
+</div>
+</nav>
+
+<!-- 🏠 首屏 -->
+<section class="hero" id="home">
+<div class="hero-bg"></div>
+<div class="hero-content">
+<div class="hero-char">🐱</div>
+<h1 class="hero-title"><span class="hero-wave">✦</span> 李小倩 <span class="hero-wave">✦</span></h1>
+<p class="hero-sub">🎀 信息工程学院 · 数据科学与大数据技术 🎀</p>
+<p class="hero-desc">「 用温柔与热爱，记录每一段闪闪发光的日子 」</p>
+<div class="hero-deco"><span>🌸</span><span>🎀</span><span>🐱</span><span>🍰</span><span>🌸</span></div>
+<a href="#about" class="hero-arrow">⬇ 下滑探索</a>
+</div>
+<div class="float-deco float-1">🌸</div>
+<div class="float-deco float-2">🎀</div>
+<div class="float-deco float-3">🧁</div>
+<div class="float-deco float-4">🐱</div>
+<div class="float-deco float-5">💖</div>
+</section>
+
+<!-- 🌸 板块一：个人介绍 -->
+<section class="section section-about" id="about">
+<div class="section-bg about-bg"></div>
+<div class="corner-deco corner-deco-right">
+<div class="kitty-emoji">😽</div>
+<span class="corner-label">Hello Kitty</span>
+</div>
+<div class="container">
+<h2 class="section-title">
+<span class="title-bar">▎</span>关于我｜李小倩的个人档案<span class="title-symbol">☆*:.,&gt;o&lt;//:.*☆</span>
+</h2>
+<div class="about-layout">
+
+  <!-- 左侧：个人照片 + 证书垂直列表 -->
+  <div class="about-left">
+    <div class="profile-photo">
+      <img src="./goal images/1.jpg" alt="李小倩证件照" loading="lazy">
+      <div class="photo-sticker">🎀 李小倩</div>
+    </div>
+    <!-- 获奖证书区域 - 垂直单列 -->
+    <div class="cert-grid">
+    <div class="cert-item">
+        <img src="./goal images/19258c7bbf35059461ae85b108e35300.jpg" alt="获奖证书" loading="lazy">
+    </div>
+    <div class="cert-item">
+        <img src="./goal images/7e72de7feb7d69fd3b53e6a9544a4782.jpg" alt="获奖证书" loading="lazy">
+    </div>
+    <div class="cert-item">
+        <img src="./goal images/765e1687af0a48fe738b8663eddcd3b0.jpg" alt="获奖证书" loading="lazy">
+    </div>
+    
+      <div class="cert-item" >
+        <img src="./goal images/8c63c2553bd92dd962795c7fe3a07976.jpg" alt="获奖证书" loading="lazy">
+      </div>
+      <div class="cert-item">
+        <img src="./goal images/c84166ec89287440ff31bdeec7abdb46.jpg" alt="获奖证书" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+  <!-- 右侧：更新后的个人档案 -->
+  <div class="about-right">
+    <!-- 基础档案 -->
+    <div class="info-card">
+      <h3 class="sub-title"><span class="title-bar">▎</span>基础档案<span class="title-symbol">☆*:.,&gt;o&lt;//:.*☆</span></h3>
+      <div class="info-grid">
+        <div class="info-item"><span class="info-label">姓名</span>李小倩</div>
+        <div class="info-item"><span class="info-label">性别</span>女</div>
+        <div class="info-item"><span class="info-label">年龄</span>21岁</div>
+        <div class="info-item"><span class="info-label">📞 电话</span>17776474947</div>
+        <div class="info-item full"><span class="info-label">🎓 在读</span>23级数据科学与大数据技术专业 · 共青团员</div>
+        <div class="info-item full"><span class="info-label">💼 现任</span>信息工程学院年级辅导员助理、2025级大数据班助</div>
+      </div>
+    </div>
+
+    <!-- 学生工作经历（新） -->
+    <div class="info-card">
+      <h3 class="sub-title"><span class="title-bar">▎</span>学生工作经历<span class="title-symbol">☆*:.,&gt;o&lt;//:.*☆</span></h3>
+      <p class="info-text">
+        1. 加入学校社团校易班工作站，统筹组织校园活动，吸引400余位同学参与，显著提升校园工作影响力；<br>
+        2. 加入学校国防后备连，参与10余场组织活动与训练，助力校园爱国主义精神传播；<br>
+        3. 担任班级宣传委员，策划活动宣传方案，撰写班级台账150余篇，规范班级信息；<br>
+        4. 担任年级辅导员助理三年，完成学校领导交办的各项工作，统筹协调多部门配合，保障工作高效推进；<br>
+        5. 担任新生班级助理，带领班级60名同学快速适应校园生活，建立班级凝聚力与良好氛围。
+      </p>
+    </div>
+
+    <!-- 学业 & 竞赛荣誉（新） -->
+    <div class="info-card">
+      <h3 class="sub-title"><span class="title-bar">▎</span>学业 & 竞赛荣誉<span class="title-symbol">☆*:.,&gt;o&lt;//:.*☆</span></h3>
+      <p class="info-text">
+        专业课程功底扎实，学术成就：GPA 3.8/4.0，专业排名 Top10%（年级前10%）。<br>
+        主修课程：数据结构与算法、机器学习基础、大数据分析原理、Python数据处理、数据库系统概论。<br>
+        🏆 2023-2024 获评校级优秀学生干部<br>
+        🏆 2024-2025 校级五好学生<br>
+        🏆 2026 荣获计算机设计大赛校级一等奖
+      </p>
+    </div>
+
+    <!-- 个人特长能力（新） -->
+    <div class="info-card">
+      <h3 class="sub-title"><span class="title-bar">▎</span>个人特长能力<span class="title-symbol">☆*:.,&gt;o&lt;//:.*☆</span></h3>
+      <p class="info-text">
+        工作中认真负责、积极主动，主动协助老师处理年级事务，用心服务同学。具备良好的组织协调能力与团队协作意识，对待任务严谨踏实，在集体中充分发挥自身优势，为团队发展贡献力量。擅长团队统筹协调、跨组员协作，做事严谨务实，擅长在项目/班级工作中发挥数据专业优势，高效落地团队任务。
+      </p>
+    </div>
+    <div class="heart-deco"><span>💖</span><span>💗</span><span>💕</span><span>💖</span><span>💗</span></div>
+  </div>
+</div>
+</div>
+</section>
+
+<!-- 🌈 分割 cat1 -->
+<div class="cat-split">
+<div class="cat-split-inner">
+<img src="./goal images/cat1.jpg" alt="猫咪分割" loading="lazy">
+</div>
+</div>
+
+<!-- ✈️ 板块二：旅行经历 -->
+<section class="section section-travel" id="travel">
+<div class="section-bg travel-bg"></div>
+<div class="corner-deco corner-deco-right corner-deco-travel">
+<div class="kitty-emoji">🐎😽</div>
+<span class="corner-label">Travel with Kitty</span>
+</div>
+<div class="container">
+<h2 class="section-title travel-title">⑥ 我的旅行游记 ☆</h2>
+
+<div class="travel-dest">
+<h3 class="sub-title"><span class="title-bar">▎</span> 三亚海边漫游<span class="title-symbol">☆:.,&gt;o&lt;//:.*☆</span></h3>
+<div class="travel-grid travel-sanya">
+<div class="travel-img-large"><img src="./goal images/227f7a527c7e264c447c57df4fcc29d7.jpg" alt="三亚" loading="lazy"></div>
+<div class="travel-img-stack">
+<img src="./goal images/8.jpg" alt="三亚" loading="lazy">
+<img src="./goal images/aae3bbce5c6725e01d9828b8199d837e.jpg" alt="三亚" loading="lazy">
+</div>
+<div class="travel-text-card">
+<p>🌊 碧海沙滩、椰林落日，在三亚感受海风与落日的温柔拥抱。</p>
+<p>🏖️ 赤脚踩在细软的白沙上，看潮起潮落，时间仿佛也放慢了脚步。</p>
+</div>
+<div class="travel-img-small">
+<img src="./goal images/19258c7bbf35059461ae85b108e35300.jpg" alt="三亚" loading="lazy">
+<img src="./goal images/7.jpg" alt="三亚" loading="lazy">
+</div>
+</div>
+</div>
+
+<div class="travel-dest">
+<h3 class="sub-title"><span class="title-bar">▎</span>稻城亚丁山野行<span class="title-symbol">☆:.,&gt;o&lt;//:.*☆</span></h3>
+<div class="travel-grid travel-daocheng">
+<div class="dc-img dc-img-tall"><img src="./goal images/15.jpg" alt="稻城" loading="lazy"></div>
+<div class="dc-img dc-img-wide rotate-r"><img src="./goal images/13 (2).jpg" alt="稻城" loading="lazy"></div>
+<div class="dc-img dc-img-tall rotate-l"><img src="./goal images/b00172021cadce77793b9486325bb2f0.jpg" alt="稻城" loading="lazy"></div>
+<div class="dc-img dc-img-wide"><img src="./goal images/cf33c564979d0a0b0f146daca5686f13.jpg" alt="稻城" loading="lazy"></div>
+<div class="dc-img dc-img-mid rotate-r"><img src="./goal images/5781708388456f012caa78a02e158856.jpg" alt="稻城" loading="lazy"></div>
+<div class="dc-img dc-img-wide"><img src="./goal images/b53bd3be48d70167f50192cbd576f61b.jpg" alt="稻城" loading="lazy"></div>
+<div class="travel-text-card dc-text">
+<p>🏔️ 徒步雪山草甸，直面川西巍峨神山。</p>
+<p>🌄 在海拔4700m的牛奶海边，感受高原的纯净与壮美。</p>
+</div>
+</div>
+</div>
+
+<div class="travel-dest">
+<h3 class="sub-title"><span class="title-bar">▎</span> 香港城市漫游<span class="title-symbol">☆:.,&gt;o&lt;//:.*☆</span></h3>
+<div class="travel-grid travel-hk">
+<div class="hk-img-tall"><img src="./goal images/c4eb9e7f26d8594056fd7b05d4f04880.jpg" alt="香港" loading="lazy"></div>
+<div class="hk-right">
+<div class="hk-img-row">
+<img src="./goal images/18.jpg" alt="香港" loading="lazy">
+<img src="./goal images/19.jpg" alt="香港" loading="lazy">
+</div>
+<div class="travel-text-card hk-text"><p>🚃 穿梭港岛街巷，感受繁华都市与复古市井的碰撞。</p></div>
+<div class="hk-img-row">
+<img src="./goal images/20.jpg" alt="香港" loading="lazy">
+<img src="./goal images/21.jpg" alt="香港" loading="lazy">
+</div>
+<div class="hk-img-row">
+<img src="./goal images/22.jpg" alt="香港" loading="lazy">
+<img src="./goal images/24.jpg" alt="香港" loading="lazy">
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- 🌈 分割 cat2 -->
+<div class="cat-split">
+<div class="cat-split-inner">
+<img src="./goal images/cat2.jpg" alt="猫咪分割" loading="lazy">
+</div>
+</div>
+
+<!-- 🐱 板块三：萌宠猫咪 -->
+<section class="section section-pets" id="pets">
+<div class="section-bg pets-bg"></div>
+<div class="container">
+<h2 class="section-title">
+<span class="title-bar">▎</span>萌宠日常｜我的猫咪小伙伴<span class="title-symbol">☆*:.,&gt;o&lt;//:.*☆</span>
+</h2>
+<div class="pets-layout">
+<div class="pets-grid">
+<div class="pet-item pet-large rotate-r"><img src="./goal images/9c36b1818342bc612ca68f0b01952edc.jpg" alt="猫咪" loading="lazy"><span class="pet-label">🐱 小橘</span></div>
+<div class="pet-item pet-medium rotate-l"><img src="./goal images/d0347b78f673147ecbe96419f6a4d190.jpg" alt="猫咪" loading="lazy"><span class="pet-label">🐱 咪咪</span></div>
+<div class="pet-item pet-small rotate-r"><img src="./goal images/e4e863dd3a32946159b3e324bc968604.jpg" alt="猫咪" loading="lazy"><span class="pet-label">🐱 奶糖</span></div>
+<div class="pet-text"><p>" 软乎乎的毛孩子，日常贴贴陪伴～ "</p></div>
+<div class="pet-item pet-medium rotate-l"><img src="./goal images/32ef761ae421fd0899c5f6129036833a.jpg" alt="猫咪" loading="lazy"><span class="pet-label">🐱 布丁</span></div>
+<div class="pet-text"><p>" 小猫是平淡生活里的小治愈 💕 "</p></div>
+<div class="pet-item pet-small rotate-r"><img src="./goal images/4c9a6deec41bf9e70bc1b38de6aef510.jpg" alt="猫咪" loading="lazy"><span class="pet-label">🐱 团子</span></div>
+<div class="pet-item pet-large rotate-l"><img src="./goal images/73007ba929aaa4254794d24df15e2886.jpg" alt="猫咪" loading="lazy"><span class="pet-label">🐱 年糕</span></div>
+<div class="pet-text"><p>" 每一只小猫咪都是上天派来的小天使 🐾 "</p></div>
+<div class="pet-item pet-small rotate-r"><img src="./goal images/9c36b1818342bc612ca68f0b01952edc.jpg" alt="猫咪" loading="lazy"><span class="pet-label">🐱 豆花</span></div>
+<div class="pet-item pet-medium"><img src="./goal images/a73339e9ed564e08fdac1a03aa79ec83.jpg" alt="猫咪" loading="lazy"><span class="pet-label">🐱 麻薯</span></div>
+<div class="pet-text"><p>" 咕噜咕噜的呼噜声，是世界上最动听的音乐 ✨ "</p></div>
+</div>
+<div class="paw-deco paw-tl">🐾</div>
+<div class="paw-deco paw-tr">🎀</div>
+<div class="paw-deco paw-bl">🐾</div>
+<div class="paw-deco paw-br">🎀</div>
+</div>
+</div>
+</section>
+
+<!-- 🌈 分割 cat3（页脚装饰） -->
+<div class="cat-split cat-split-footer">
+<div class="cat-split-inner">
+<img src="./goal images/cat3.jpg" alt="猫咪装饰" loading="lazy">
+</div>
+</div>
+
+<!-- 🦶 页脚 -->
+<footer class="footer">
+<div class="footer-deco"><span>🌸</span><span>🎀</span><span>🐱</span><span>🎀</span><span>🌸</span></div>
+<p>Copyright © 李小倩 all rights reserved</p>
+<p class="footer-sub">💗 用热爱记录生活，用温柔拥抱世界 💗</p>
+</footer>
+
+<button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">⬆</button>
+
+<!-- 图片模态框 HTML -->
+<div id="imageModal" class="image-modal">
+    <span class="close-modal">&times;</span>
+    <img class="modal-content" id="modalImg" alt="证书大图">
+</div>
+
+<script>
+// ---------- 证书图片点击放大功能 ----------
+const modal = document.getElementById('imageModal');
+const modalImg = document.getElementById('modalImg');
+const closeModalBtn = document.querySelector('.close-modal');
+
+document.querySelectorAll('.cert-item').forEach(item => {
+    item.addEventListener('click', function(e) {
+        let imgSrc = this.getAttribute('data-img-src');
+        if (!imgSrc) {
+            const img = this.querySelector('img');
+            if (img) imgSrc = img.src;
+        }
+        if (imgSrc) {
+            modalImg.src = imgSrc;
+            modal.classList.add('active');
+        }
+        e.stopPropagation();
+    });
+});
+
+function closeModal() {
+    modal.classList.remove('active');
+}
+modal.addEventListener('click', function(e) {
+    if (e.target === modal) closeModal();
+});
+closeModalBtn.addEventListener('click', closeModal);
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && modal.classList.contains('active')) closeModal();
+});
+
+// 导航栏滚动效果
+window.addEventListener('scroll',function(){
+    document.getElementById('navbar').classList.toggle('scrolled',window.scrollY>50);
+    var btn=document.getElementById('backToTop');
+    if(btn) btn.classList.toggle('visible',window.scrollY>400);
+    var secs=['home','about','travel','pets'];var cur='home';
+    secs.forEach(function(id){
+        var el=document.getElementById(id);
+        if(el&&window.scrollY>=el.offsetTop-200)cur=id;
+    });
+    document.querySelectorAll('.nav-links a').forEach(function(a){
+        a.classList.toggle('active',a.getAttribute('href')==='#'+cur);
+    });
+});
+document.querySelectorAll('.nav-links a').forEach(function(a){
+    a.addEventListener('click',function(){
+        document.querySelector('.nav-links')?.classList.remove('active');
+    });
+});
+</script>
+
+</body>
+</html>
